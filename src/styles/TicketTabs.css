@@ -1,0 +1,51 @@
+.react-tabs {
+    padding-top: 0.45rem;
+    position: relative;
+}
+
+.react-tabs__tab {
+    background: #0e978d !important;
+    border: none !important;
+    border-radius: 0 !important;
+    color: #057169;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.7rem 4rem !important;
+}
+
+.ticket__title {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: -50px;
+}
+
+.react-tabs__tab:focus {
+    box-shadow: none !important;
+}
+
+.react-tabs__tab:nth-child(4) {
+    background: #0c8b80 !important;
+    color: #b7c7cf !important;
+}
+
+.react-tabs__tab-panel {
+    background: #f4f8f7 !important;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.react-tabs__tab--selected {
+    background: var(--BodyBGColor) !important;
+    color: #0ba897 !important;
+}
+
+.react-tabs__tab--selected>.ticket__title>.icon {
+    color: #0c5c5a !important;
+}

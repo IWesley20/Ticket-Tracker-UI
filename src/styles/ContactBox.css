@@ -1,0 +1,48 @@
+.contact__header {
+    justify-content: space-between;
+}
+
+.contact__header,
+.contact__properties:last-child {
+    border-bottom: var(--BorderStyle);
+}
+
+.contact__header,
+.contact__properties>.left,
+.contact__properties>.right {
+    display: flex;
+    align-items: center;
+}
+
+.left>.issue__title,
+.right>.issue__title {
+    position: relative;
+}
+
+.left>.issue__value,
+.right,
+.right>.issue__value {
+    position: absolute;
+}
+
+.right {
+    transform: translateX(325px);
+}
+
+.left>.issue__value {
+    transform: translateX(90px);
+}
+
+.right>.issue__value {
+    transform: translate(120px);
+    white-space: nowrap;
+}
+
+.left>.issue__title,
+.left>.issue__value,
+.middle>.issue__title,
+.right>.issue__title,
+.right>.issue__value {
+    font-size: 0.6rem;
+    color: #585858;
+}

@@ -1,0 +1,17 @@
+.ticket__history__container {
+    border-bottom: var(--BorderStyle);
+}
+
+.values {
+    display: flex;
+    padding: 0.37rem 0.4rem;
+}
+
+.values>.left {
+    position: relative;
+}
+
+.values>.middle {
+    position: absolute;
+    transform: translateX(180px);
+}

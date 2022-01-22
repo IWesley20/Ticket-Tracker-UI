@@ -1,0 +1,46 @@
+#FAQ__container__outer {
+    height: 650px;
+}
+
+.FAQ__container {
+    margin: 0 1.5rem;
+    border-bottom: var(--BorderStyle);
+}
+
+.FAQ__container:last-child {
+    border-bottom: none;
+}
+
+.FAQ__searchbox,
+.FAQ__searchbox>.input__text {
+    display: flex;
+}
+
+.FAQ__searchbox {
+    justify-content: flex-end;
+    margin: 0.8rem 0;
+}
+
+.FAQ__searchbox>.input__text {
+    align-items: center;
+}
+
+.input__text>input {
+    border: 1px solid #9d9d9d;
+    border-radius: 50px;
+    padding: 0.3rem 0.7rem;
+    width: 11.5rem;
+    position: relative;
+}
+
+.input__text>.search {
+    position: absolute;
+    color: #c1c0c8;
+    right: 30px;
+    transform: scale(0.9);
+}
+
+.input__text>input::placeholder {
+    font-size: 0.7rem;
+    color: #606060;
+}

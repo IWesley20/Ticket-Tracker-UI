@@ -1,0 +1,39 @@
+.issue__container {
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 0.9rem;
+    border: var(--BorderStyle);
+}
+
+.issue__container__inner {
+    padding: 1rem;
+}
+
+.issue__properties {
+    display: flex;
+    align-items: center;
+    padding: 0.37rem 0.4rem;
+}
+
+.issue__properties:not(:last-child) {
+    border-top: none;
+    border-right: none;
+    border-bottom: var(--BorderStyle);
+    border-left: none;
+}
+
+.issue__properties>.issue__title,
+.issue__properties>.issue__value {
+    font-size: 0.6rem;
+    color: #585858;
+}
+
+.issue__properties>.issue__title {
+    position: relative;
+}
+
+.issue__properties>.issue__value {
+    position: absolute;
+    color: #000;
+    transform: translateX(160px);
+}

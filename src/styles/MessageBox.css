@@ -1,0 +1,70 @@
+.message__container {
+    margin: 0.75rem 2rem;
+}
+
+.message__header,
+.opening__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta__title>.message__title {
+    color: #085952;
+    font-size: 1rem;
+    padding-bottom: 0.75rem;
+    margin: 0;
+}
+
+#date {
+    color: #a1a5a8;
+}
+
+.attachment>.clip {
+    transform: rotate(-90deg);
+}
+
+.message__body {
+    background: #f4f8fb;
+    border: var(--BorderStyle);
+    border-radius: 5px;
+    padding: 0.9rem;
+    font-size: 0.8rem;
+}
+
+.middle>.issue {
+    margin: 1rem 0;
+}
+
+.message__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.reply__btn,
+.forward__btn {
+    margin-right: 0.25rem;
+}
+
+button {
+    background: var(--TicketHubTheme);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 0.9rem;
+    cursor: pointer;
+}
+
+.reply {
+    transform: scale(1.6);
+}
+
+.forward {
+    transform: scale(1.2);
+}
+
+.comment__btn>button {
+    padding: 0.5rem 1.8rem;
+    font-weight: 700;
+}

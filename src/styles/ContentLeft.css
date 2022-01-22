@@ -1,0 +1,17 @@
+.content__container {
+    height: 590px;
+    border: var(--BorderStyle);
+    border-radius: 0 5px 5px 5px;
+    background: #fff;
+}
+
+.content__left,
+.content__right {
+    width: 100%;
+}
+
+.content__right {
+    margin-top: 3.8rem;
+    margin-left: 1rem;
+    min-width: 410px;
+}

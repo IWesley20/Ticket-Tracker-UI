@@ -1,0 +1,23 @@
+.inquiry__container {
+    padding: 0.6rem 1.4rem;
+}
+
+.inquiry__container>.cta__title>.inquiry__title {
+    color: #036c63;
+    font-weight: 500;
+}
+
+.answer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.answer>.answer__text {
+    font-size: 0.67rem;
+    white-space: nowrap;
+}
+
+.chevron__icon>.chevron {
+    color: #036c63;
+    margin-left: 0.6rem;
+}
